@@ -1,0 +1,170 @@
+.study-screen {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-height: 100vh;
+}
+
+.study-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.study-pill {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #e5e7eb;
+}
+
+.study-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--muted);
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: rgba(164, 157, 157, 0.05);
+}
+
+.card-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-btn {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: color 0.2s;
+}
+.back-btn:hover { color: var(--text); }
+
+.study-deck-name {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.card-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.study-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.btn-hint,
+.btn-skip,
+.btn-know {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.08);
+  color: var(--text);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.btn-hint:hover,
+.btn-skip:hover,
+.btn-know:hover {
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.12);
+}
+
+.btn-know { color: #34d399; border-color: rgba(52,211,153,0.35); background: rgba(52,211,153,0.1); }
+
+.rating-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rating-prompt {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.session-progress-box {
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(84, 79, 79, 0.15);
+  background: rgba(255,255,255,0.04);
+}
+
+.session-progress-title {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.session-progress-values {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.session-progress-values > div {
+  flex: 1;
+  text-align: center;
+}
+
+.progress-num {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.progress-label {
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.streak-reminder {
+  margin-top: 8px;
+  border-left: 4px solid;
+  background: rgba(255,255,255,0.05);
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #d1fae5;
+}
+
+.rating-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rating-prompt {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.card-counter {
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+  padding-bottom: 16px;
+}
